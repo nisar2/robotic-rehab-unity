@@ -1,1 +1,1 @@
-# robotic-rehab
+# Robotic Rehabilitation for Stroke Patients
