@@ -1,0 +1,20 @@
+{
+  "Targets": [
+    {
+      "PosX": 3.0,
+      "PosY": 3.0,
+      "PosZ": 3.0
+    },
+    {
+      "PosX": 4.0,
+      "PosY": 4.0,
+      "PosZ": 3.0
+    },
+    {
+      "PosX": 5.0,
+      "PosY": 2.0,
+      "PosZ": 3.0
+    }
+  ],
+  "Looping": false
+}

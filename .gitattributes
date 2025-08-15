@@ -1,0 +1,1 @@
+*.psd,[[:space:]]*.png,[[:space:]]*.jpg,[[:space:]]*.tiff,[[:space:]]*.fbx,[[:space:]]*.stl,[[:space:]]*.obj,[[:space:]]*.blend,[[:space:]]*.maya,[[:space:]]*.tga filter=lfs diff=lfs merge=lfs -text

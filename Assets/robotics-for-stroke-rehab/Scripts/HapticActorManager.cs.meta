@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 6c408e8411ed10a4a89d4caa07286d29
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - hapticActor: {fileID: 8185680761894504468, guid: eae6e90d1cdc8834193b2b4969d61be3, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
