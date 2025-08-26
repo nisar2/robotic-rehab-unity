@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "SOSite", menuName = "Participant Management/SOSite")]
+[CreateAssetMenu(fileName = "SOSite", menuName = "SOSite")]
 public class SOSite : ScriptableObject
 {
     public string DataPath;
