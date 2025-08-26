@@ -79,7 +79,6 @@ public class DataManager : MonoBehaviour
     {
         SessionId = DateTime.Now.ToString("M-dd-yyyy--HH-mm-ss");
         string sessionFolderPath = site.DataPath + "/" + sessionParticipantId.Data + "/" + SessionId + "_"+ sessionParticipantId.Data;
-        Debug.Log(sessionFolderPath);
         Directory.CreateDirectory(sessionFolderPath);
 
         string objectiveMetricsToSubmitJson = JsonConvert.SerializeObject(objMetrics);

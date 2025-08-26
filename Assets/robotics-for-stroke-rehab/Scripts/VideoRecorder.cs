@@ -40,8 +40,9 @@ namespace UnityEngine.Recorder.Examples
             string root = DataManager.Instance.GetSite().DataPath;
             string particpantId = DataManager.Instance.GetSessionParticipant().Data;
             string sessionId = DataManager.Instance.SessionId + "_" + particpantId;
-            string absoluteFilePath = Path.Combine(Path.Combine(root, particpantId), sessionId);
-            return Path.Combine(absoluteFilePath, "video_"+sessionId);
+            string absoluteFilePath = root + '/' + particpantId + '/' + sessionId + '/' + "video_"+sessionId;
+            Debug.Log("here" + absoluteFilePath);
+            return absoluteFilePath; 
         }
 
         public void StartRecording()
@@ -71,7 +72,9 @@ namespace UnityEngine.Recorder.Examples
             m_Settings.AudioInputSettings.PreserveAudio = m_RecordAudio;
 
             // Simple file name (no wildcards) so that FileInfo constructor works in OutputFile getter.
+            Debug.Log("Here2" + getAbsFilePath());
             m_Settings.OutputFile = getAbsFilePath(); 
+            Debug.Log(m_Settings.OutputFile);
 
             // Setup Recording
             controllerSettings.AddRecorderSettings(m_Settings);
