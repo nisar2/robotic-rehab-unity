@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414754, b: 0.12107867, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414733, b: 0.1210785, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1416,7 +1416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SessionId: 
-  site: {fileID: 11400000, guid: c5f3b22ededded644a5ea7534b28b33b, type: 2}
+  site: {fileID: 11400000, guid: 96c1241fbaa1e134f89e272d70b6daa4, type: 2}
   sessionParticipantId: {fileID: 11400000, guid: 2513a5ddeabd08340bc86c906a4ffa91, type: 2}
   objMetrics:
     ParticipantId: 
@@ -18492,7 +18492,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1723.3334, y: -81}
+  m_AnchoredPosition: {x: 1723.3334, y: 0}
   m_SizeDelta: {x: 393.33334, y: 162}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &496526138
@@ -24551,7 +24551,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 985, y: -81}
+  m_AnchoredPosition: {x: 985, y: 0}
   m_SizeDelta: {x: 1083.3334, y: 162}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &637281660
@@ -38446,7 +38446,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 221.66667, y: -81}
+  m_AnchoredPosition: {x: 221.66667, y: 0}
   m_SizeDelta: {x: 443.33334, y: 162}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1013824598
@@ -71279,7 +71279,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   objectiveMetricInputFields: []
-  submitObjectiveMetrics: {fileID: 534203011}
   instructionText: {fileID: 1040707760}
 --- !u!225 &1836669006
 CanvasGroup:
